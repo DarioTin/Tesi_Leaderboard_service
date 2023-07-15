@@ -8,8 +8,3 @@ mvn clean install
 ```
 docker image build -t leaderboard-service .
 ```
-## Docker push
-```
-docker tag leaderboard-service dariotintore/leaderboard-service
-docker push dariotintore/leaderboard-service
-```
