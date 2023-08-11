@@ -51,9 +51,15 @@ public class Solution {
   @Column(name = "score", columnDefinition = "int default 0")
   private int score;
 
-  @Column(name = "refactoring_result")
+  @Column(name = "refactoring_result", columnDefinition = "TEXT")
   private boolean refactoringResult;
 
-  @Column(name = "smells")
+  @Column(name = "original_coverage", columnDefinition = "int default 0")
+  private int originalCoverage;
+
+  @Column(name = "refactored_coverage", columnDefinition = "int default 0")
+  private int refactoredCoverage;
+
+  @Column(name = "smells", columnDefinition = "TEXT")
   private String smells;
 }

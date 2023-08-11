@@ -35,6 +35,8 @@ public class SolutionService {
                 .refactoredCode(solutionDTO.getRefactoredCode())
                 .score(solutionDTO.getScore())
                 .refactoringResult(solutionDTO.isRefactoringResult())
+                .originalCoverage(solutionDTO.getOriginalCoverage())
+                .refactoredCoverage(solutionDTO.getRefactoredCoverage())
                 .smells(solutionDTO.getSmells())
                 .build();
         solutionRepository.save(solution);

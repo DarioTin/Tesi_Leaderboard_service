@@ -13,6 +13,8 @@ public class SolutionSaveRequestDTO {
     private String playerName;
     private String refactoredCode;
     private boolean refactoringResult;
+    private int originalCoverage;
+    private int refactoredCoverage;
     private String smells;
     private int score;
 }

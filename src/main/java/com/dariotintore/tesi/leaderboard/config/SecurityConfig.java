@@ -1,4 +1,4 @@
-package com.dariotintore.tesi.leaderboard.Config;
+package com.dariotintore.tesi.leaderboard.config;
 
 
 import lombok.AllArgsConstructor;
